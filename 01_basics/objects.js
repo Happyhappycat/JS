@@ -1,9 +1,7 @@
 let hashmap={}
 
-hashmap.name=function(){
-    console.log("Harsha")
+hashmap={name:"Harsha",age:"20"}
+hashmap.greeting=function(){
+    console.log(`Hello JS user, ${this.name}`)
 }
-hashmap.age=function(){
-    console.log(20)
-}
-console.log(hashmap.age())
+console.log(hashmap.greeting())
