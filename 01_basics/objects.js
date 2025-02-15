@@ -3,4 +3,7 @@ let hashmap={}
 hashmap.name=function(){
     console.log("Harsha")
 }
-console.log(hashmap.name())
+hashmap.age=function(){
+    console.log(20)
+}
+console.log(hashmap.age())
